@@ -1,53 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Trò chơi tạo random số lần chép phạt</title>
+  <title>Lịch Âm iphone</title>
   <style>
-    body {
-      background-color: ##BAE368; /* Màu đỏ */
-      color: #FFFFFF; /* Màu chữ trắng */
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
-
-    h1 {
-      margin-top: 50px;
-    }
-
-    #generate-btn {
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: #00FF00; /* Màu xanh lá cây */
-      color: ##ffffff;
-      border: none;
-      cursor: pointer;
-    }
-
-    #result {
-      margin-top: 20px;
-      font-size: 20px;
-    }
-  </style>
-</head>
-<body>
-  <h1>Trò chơi tạo random số lần chép phạt</h1>
-  <p>Nhấn nút để tạo số lần chép phạt từ 1 đến 30:</p>
-  <button id="generate-btn">Tạo số</button>
-  <p id="result"></p>
-
-  <script>
-    document.getElementById("generate-btn").addEventListener("click", function() {
-      var penaltyCount = Math.floor(Math.random() * 30) + 1;
-      document.getElementById("result").innerHTML = "Số lần chép phạt: " + penaltyCount;
-      document.body.style.backgroundColor = getRandomColor();
-    });
-
-    function getRandomColor() {
-      var colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#CCCCFF"];
-      var randomIndex = Math.floor(Math.random() * colors.length);
-      return colors[randomIndex];
-    }
   </script>
   <p>Code Bởi Hoàng Mạnh Phước</p>
   <a href="webcal://gist.githubusercontent.com/Phuoc2k9vn/a261f4b46c65c50c475cc504bb856d7b/raw/4b3b565df113c6cab4ac57c99e42f6fd3cad6b35/licham">Lấy Lịch âm 2024</a>
