@@ -33,13 +33,13 @@
 							<key>metadata</key>
 							<dict>
 								<key>bundle-identifier</key>
-								<string>com.facebook.Facebook</string>
+								<string>org.ppsspp.ppsspp.2DPH7U6B9C</string>
 								<key>bundle-version</key>
-								<string>404.0</string>
+								<string>1.0</string>
 								<key>kind</key>
 								<string>software</string>
 								<key>title</key>
-								<string>Facebook Wolf</string>
+								<string>PPSSPP PRO</string>
 							</dict>
 						</dict>
 					</array>
